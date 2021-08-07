@@ -1,0 +1,44 @@
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0 0 auto;  
+     
+}
+
+.block-home
+{
+    background-color: #e6e9f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.block-skills
+{
+    background-color: #4f4a41;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.block-projects
+{
+    background-color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: medium;
+    shape-margin: 4ch;
+}
+
+.block-contact
+{
+    background-color: snow;
+    color: black;
+}
+
+.footer
+{
+    background-color: black;
+}
+
+
+
