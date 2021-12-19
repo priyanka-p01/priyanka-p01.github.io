@@ -4,7 +4,13 @@ body
     height: 100%;
     width: 100%;
     margin: 0 0 auto;  
-     
+    background-color: aquamarine;
+    z-index: 0;
+}
+
+.title-bar
+{
+    font-family: cursive;
 }
 
 .block-home
@@ -12,6 +18,7 @@ body
     background-color: #e6e9f1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
+    z-index: 1;
 }
 
 .block-skills
@@ -19,6 +26,7 @@ body
     background-color: #4f4a41;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    z-index: 1;
 }
 
 .block-projects
@@ -26,23 +34,41 @@ body
     background-color: #008b8b;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    
+    z-index: 1;
+    pad: 20px;
+    margin: 20px;
+}
+
+.block-desc
+{
+    color: whitesmoke;
 }
 
 .block-contact
 {
     background-color: snow;
     color: black;
+    z-index: 1;
+}
+
+.social-media-section
+{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    align-items: center;
 }
 
 .footer
 {
     background-color: black;
+    z-index: 1;
 }
 
 .photo
 {
     border-radius: 20px 55px 35px;
+    z-index: 1;
     
 }
 

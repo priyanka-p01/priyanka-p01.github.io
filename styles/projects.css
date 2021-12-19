@@ -1,0 +1,25 @@
+html, body{
+    height: 100vh;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+}
+
+#project-page
+{
+    font-size: large;
+    color: brown;
+    font-weight: 200;
+    font-family: cursive;
+    display: flexbox;
+    flex-flow: row wrap;
+
+}
