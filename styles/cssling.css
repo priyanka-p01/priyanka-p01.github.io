@@ -4,7 +4,9 @@ body
     height: 100%;
     width: 100%;
     margin: 0 0 auto;  
-    background-color: aquamarine;
+    background-color: antiquewhite;
+    background-image: url(https://iprsrg.com/wp-content/uploads/2019/08/Background-Images-For-Websites-011.jpg);
+    background-size: cover;
     z-index: 0;
 }
 
@@ -15,18 +17,20 @@ body
 
 .block-home
 {
-    background-color: #e6e9f1;
+    background-color: #d9e0f3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     z-index: 1;
+    color: ;
 }
 
 .block-skills
 {
-    background-color: #4f4a41;
+    background-color: #fbeec2;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     z-index: 1;
+    color: #008b8b;
 }
 
 .block-projects
