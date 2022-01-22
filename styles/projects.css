@@ -21,5 +21,11 @@ html, body{
     font-family: cursive;
     display: flexbox;
     flex-flow: row wrap;
+}
 
+.footer
+{
+    background-color: black;
+    z-index: 1;
+    color: gainsboro;
 }
